@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+          <!-- custom stylesheet + script -->
+   <link rel="stylesheet" href="/dist/style.css">
+   <script defer src="/dist/script.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <!-- favicon img -->
+  <link rel="shortcut icon" href="" type="image/x-icon">
+
+</head>
+<body>
+
+
+    <form id="signUpform" action="" class="mx-auto p-10 flex flex-col w-[420px] gap-5">
+
+        <input required type="email" name="email" id="email" class="border-black border p-3" placeholder="Enter email">
+        <input required type="text" name="userName" placeholder="Username" id="username" class="border-black border p-3">
+        <input required minlength="6" type="password" name="password" id="password" class="border-black border p-3" placeholder="Password">
+
+
+        <button type="submit" class="bg-black text-white p-3 transition-opacity hover:opacity-70">Sign Up</button>
+        <a type="button" href="/login.html" class="bg-black text-white p-3 transition-opacity hover:opacity-70 w-full text-center"> Login</a>
+        
+
+    </form>
+</body>
+</html>
